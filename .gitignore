@@ -1,0 +1,30 @@
+# Python virtual environment - never commit this
+venv/
+env/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ML model files (can be large)
+models/*.pkl
+models/*.joblib
+
+# Database file (contains real data)
+*.db
+*.sqlite3
+
+# Environment variables (may contain secrets)
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (can be large)
+data/*.csv
+data/*.json
